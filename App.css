@@ -1,0 +1,1126 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    scroll-behavior: smooth;
+    color: #fff;
+}
+
+
+#navbar
+{
+    background-color: #202133;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#nav
+{
+    width: 500px;
+    padding: 0px 10px;
+    list-style: none;
+    text-decoration: none; 
+    line-height: 2; 
+}
+
+#nav > a 
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+@media screen and (max-width:992px)
+{
+    #nav {
+        width:100%;
+        text-align: center;
+        padding: 0;
+    }
+}
+
+#bgsection
+{
+    height: 95vh;
+    width: 100%;
+    background-color: #202133;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);
+    padding: 0px  20px;
+    position: relative;
+    top: -24px;
+}
+.introduction
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    flex-wrap: wrap;
+    line-height: 2;
+    text-align: center;
+}
+
+.social-icons > i
+{
+    margin: 0px 5px;
+    color: #fff;
+}
+
+.data > div 
+{
+    color: #fff;
+}
+
+.name
+{
+    font-size: 25px;
+    font-weight: 900;
+}
+.name > span
+{
+    color: #e33c1e;
+}
+
+.profile
+{
+    border-bottom: 1px solid #fff;
+    border-radius: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+/* 
+.profile > img 
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 1000px;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+} */
+
+.line 
+{
+    font-family: 'Arial';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+@media screen and  (max-width:600px)
+{
+    .line
+    {
+        display: none;
+    }
+
+    img 
+    {
+        line-height: normal;
+        margin: 0px;
+        padding:0px ;
+    }
+
+}
+
+.typewriter
+{
+    font-size: 27px;
+    font-weight: 500;
+    font-family: 'Merienda'; 
+}
+
+.btn-group 
+{
+    display: flex;
+    width: 300px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+.btn-1 > a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.btn-1 > a:hover
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-1
+{
+    padding: 8px 25px 8px 25px ;
+    border: 2px solid #e33c1e;
+    color: #fff;
+    background: none;
+    border-radius: 100px;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .8s ease all;
+}
+
+.btn-1:hover 
+{
+    background: #e33c1e;
+    border: 2px solid #e33c1e;
+    color: #fff;
+}
+
+.btn-2 
+{
+    color: #fff;
+    background: #e33c1e;
+    padding: 8px 22px 8px 22px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .8s ease all;
+}
+
+.btn-2:hover
+{
+    background: #fff;
+    color: #e33c1e;
+}
+
+@media screen and (max-width:992px)
+{
+
+    #bgsection
+    {
+        height: 120vh;
+    }
+
+    .introduction
+    {
+        display: flex;
+        justify-content: center;
+        height: 60vh;   
+    }
+}
+
+.profile
+{
+    padding: 8px;
+    overflow: hidden;
+}
+
+.profile >.me
+{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-position: center ;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+@media screen and (max-width:800px)
+{
+    .profile >.me
+    {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width:702px)
+{
+    .profile > img
+    {
+        height: 250px;
+        width: 250px;
+    }
+
+    .social-icons{
+        font-size: 14px;
+        margin: 90px 0px 0px 0px ;
+    }
+
+    .name 
+    {
+        font-size: 22px;
+    }
+    
+    .typewriter{
+        font-size: 25px;
+        margin: 10px 0px;
+    }
+    
+}
+
+.heading
+{
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 34px;
+}
+
+.why-choose
+{
+    text-align: center;
+    font-size: 13px ;
+    letter-spacing: 3.1px;
+}
+
+.customline 
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.linebar
+{
+    border: 2px solid rgba(0, 0, 0, 0.878);
+    width: 78px;
+    height: 0px;
+}
+
+.customline> .orangeline
+{
+    border: 2px solid #e33c1e;
+    width: 35px;
+    height: 9px;
+    border-radius: 20px;
+    background: #e33c1e;
+    
+}
+
+.blackline
+{
+    border: 2px solid rgba(0, 0, 0, 0.898);
+    width: 78px;
+    height: 0px;
+}
+
+@media screen and (max-width:600px)
+{
+    .heading 
+    {
+        font-size: 28px;
+    }
+}
+
+#about-area
+{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.box-shadow
+{
+    display: flex;
+    justify-content: center;
+    flex-basis: 75%;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.51) ;
+}
+
+.header-area
+{
+    display: flex;
+    flex-basis: 50%;
+    height:auto;
+}
+
+.about-information
+{
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    text-transform: capitalize;
+    line-height: 2;
+    word-spacing: 5px;
+    padding:20px 25px 0px 25px;
+    
+}
+
+.paragraph
+{
+    margin: 0px;
+}
+
+.image-area > img
+{
+    height: 100% ;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.highlight
+{
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10% 0px 20px 0px;
+}
+    
+.list
+{
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.fa-circle
+{
+    color: #e33c1e;
+    /* height: 40px; */
+}
+
+.btn-portion
+{
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+}
+
+.about-btn-1
+{
+    background: #1e1d2d;
+    color: #fff;
+    border: 2px solid #1e1d2d;
+    padding: 6px 30px 6px 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50px;
+    margin: 30px 0px 20px 0px;
+}
+
+
+.about-btn-2
+{
+    background: #e33c1e;
+    color: #fff;
+    border: 2px solid #e33c1e;
+    padding: 6px 30px 6px 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50px;
+    margin: 30px 0px 20px 0px;
+}
+
+@media screen and (max-width:600px)
+{
+    .btn-portion
+    {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .about-btn-1
+    {
+        width: 130px;
+        padding: 5px 20px 5px 20px;
+    }
+
+    .about-btn-2
+    {
+        width: 130px;
+        padding: 5px 20px 5px 20px;
+    }
+}
+
+@media screen and (max-width:888px)
+{
+    .box-shadow
+    {
+        flex-basis:  100%;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .header-area
+    {
+        height: 800px;
+    }
+}
+
+/* #resume-area
+{
+    overflow: hidden;
+} */
+
+.resume-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0px;
+    background: rgba(0, 0, 0, 0.013);
+    height: 400px;
+    overflow: hidden;
+}
+
+.box-1
+{
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #fff;
+    height: 220px;
+    text-align: center;
+    border-bottom: 4px solid #e33c1e;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.585);
+    margin: 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    transition: .3s ease all;
+}
+
+.box-1:hover
+{
+    transform: translatey(-5px);
+}
+
+.box-4
+{
+    cursor: pointer;
+}
+
+.custom-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 7px;
+    margin: 10px 0px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #e33c1e;
+    color: #fff;
+}
+
+.heading-1
+{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'poppins';
+    margin: 5px 0px;
+}
+
+.paragraph-1
+{
+    font-size:14px;
+    padding: 10px 0px ;
+    margin: 10px 0px;
+}
+
+#github
+{
+    color: black;
+    
+}
+
+@media screen and (max-width:900px)
+{
+    .resume-section
+    {   
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box-1{
+        margin: 20px 10px;
+    }
+}
+
+.focus
+{
+    border: 2px solid black;
+}
+
+/* // Experience section // */
+
+
+#experience
+{
+    background-image: url('images/People.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+    margin: 50px 0px;
+}
+
+.experience-section
+{
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #1e1d2dcf;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.image-section
+{
+    display: flex;
+    flex-basis: 20%;
+    padding: 10px;
+    border-radius: 20px;
+    border-bottom-left-radius:0px ;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+
+.round-img
+{
+    height: 60px;
+    width: 60px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid #1e1d2d;
+    position: relative;
+    top: 18px;
+}
+
+
+.testinomial-1
+{
+    word-spacing: 2.1px;
+    font-style: italic;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+
+.short-section
+{
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    overflow: hidden;
+     
+}
+
+.name-here
+{
+    text-align: right;
+    padding: 0px 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.working
+{
+    width: 100%;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 65px;
+    position: relative;
+    top: -14px;
+}
+
+.quote
+{
+    color: #e33c1e;
+    padding: 0px 5px;
+}
+
+.rating
+{
+    color: #e33c1e;
+    padding: 10px 0px;
+}
+
+
+@media screen and (max-width:1000px)
+{
+    #experience
+    {
+      
+        height: auto;
+      
+    }
+
+    .experience-section
+    {
+        flex-direction: column;
+        height: auto;
+        padding:0px 20px;
+    }
+
+    .image-section
+    {
+        margin: 20px 0px;
+    }
+}
+
+.contact-section
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 75%;
+    border-radius: 20px;
+    
+    
+    padding:20px 0px 5px 1px;
+}
+
+
+.in-touch
+{
+    
+    background: #1e1f2e;
+    color: #fff;
+    height:350px ;
+    width: 400px;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.contact-icons
+{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    padding: 30px 0px;
+}
+
+.email-name
+{
+    margin: 40px 0px 20px 0px;
+    letter-spacing: 3px;
+}
+
+
+.number
+{
+    margin: 20px 0px;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.number > span 
+
+{
+    letter-spacing: 3px;
+}
+
+.address
+{
+    margin: 20px 0px;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.address > span 
+
+{
+    letter-spacing: 3px;
+}
+
+
+.form
+{
+    background: #e4e4e6;
+    height:350px ;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+@media screen and (max-width:800px)
+{
+    .form
+    {
+        padding: 10px;
+        width: 330px;
+        margin:30px 0px;  
+        border-radius: 20px;
+    }
+}
+
+
+.inpt-Name
+{
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 14px 0px 2px 0px;
+}
+
+
+.inpt-email
+{
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 14px 0px 2px 0px;
+}
+
+
+.inpt-msg
+{
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 14px 0px 2px 0px;
+}
+
+.name-field
+{
+    outline: none;
+    border: none;
+    background: #d6d6d8;
+    padding: 6px;
+    border-radius: 10px;
+    width: 340px;
+    font-size: 14px;
+    
+}
+
+
+.email-field
+{
+    outline: none;
+    border: none;
+    background: #d6d6d8;
+    padding: 6px;
+    border-radius: 10px;
+    width: 340px;
+    font-size: 14px;
+}
+
+
+.msg-field
+{
+    outline: none;
+    border: none;
+    background: #d6d6d8;
+    padding: 6px;
+    border-radius: 10px;
+    width: 340px;
+    font-size: 14px;
+}
+
+.inpt-btn > button
+{
+    font-size: 14px;
+    padding: 6px 30px;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background: #1e1f2e;
+    border: 1.8px solid #e33c1e;
+    margin: 20px 0px;
+}
+
+
+@media screen and (max-width:800px)
+{
+    
+
+    .name-field
+    {
+        width: 280px;
+    }
+
+    .email-field
+    {
+        width: 280px;
+    }
+
+    .msg-field
+    {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width:600px)
+{
+    .contact-section
+    {
+        padding: 10px;
+    }
+
+    .in-touch
+    {
+        border-radius: 20px;
+    }
+
+    .form{
+        margin: 20px;
+        padding: 20px 20px;
+        width: 310px;
+    }
+
+    .name-field
+    {
+        width: 260px;
+    }
+
+    
+    .email-field
+    {
+        width: 260px;
+    }
+
+    .msg-field
+    {
+        width: 260px;
+    }
+}
+
+footer
+{
+    width: 100%;
+    color: #fff;
+    background: #1e1f2e;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 14px 0px ;
+    margin: 50px 0px 0px  0px;
+}
+
+#logo > img
+{
+    
+    height: 130px;
+    width: auto;
+}
+
+@media screen and (max-width:700px)
+{
+    
+    #logo > img
+    {
+        
+        height: 100px;
+        width: auto;
+    }
+
+}
+
+
+
+
+
+
+/*  Resume section start  */
+/*  Resume section start  */
+
+
+
+#resume-center
+{
+    display: flex;
+    justify-content: center;
+}
+
+#resume
+{
+    position: absolute;
+    top: 0px;
+    height: 800px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.322);
+    margin-top:5% ;
+    width: 60%;
+    transition: .3s ease all;
+}
+
+.inside-resume
+{
+    
+    height: 300px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    /* background: #1e1d2d; */
+    background-image: linear-gradient(#1e1d2d,#000000);
+    border:1px solid rgba(255, 255, 255, 0.537);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume-area
+{
+    text-align: center;
+}
+
+.cros
+{   
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 100px;
+    font-size: 14px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.resume-pic
+{
+    height: 170px;
+    width: 170px;
+    border-radius:100% ;
+    object-fit: cover;
+    display:inline-block ;
+}
+
+.resume-name-1 
+{
+    font-weight: 1000;
+    font-size: 45px;
+    padding:5px 0px 5px 0px;
+}
+
+.resume-name-2 
+{
+    font-weight: 300;
+    font-size: 45px
+}
+
+.faculty
+{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#resume-white
+{
+    color: #000;
+    background: #fff;
+    padding: 0px 0px 20px 0px;
+    
+    display: flex;
+    flex-basis: 100%;
+}
+
+#contact-section
+{
+    flex-basis: 30%;    
+}
+
+#profile-section
+{
+    flex-basis: 80%;
+    border-left: 1px solid rgba(0, 0, 0, 0.336);
+    padding: 5px 10px 5px 10px;
+}
+
+.headz
+{
+    padding: 15px 15px;
+}
+
+.small-icons
+{
+    color: #e33c1e;
+    width: 20px;
+    font-size: 12px;
+}
+
+.get-in-touch
+{
+    padding: 0px 15px;
+    line-height: 1.8;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.paragraph
+{
+    padding: 10px 0px 10px 0px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.school
+{
+    color: rgba(0, 0, 0, 0.76);
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+.uni-line
+{
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.76);
+    font-size: 15px;
+}
+
+@media screen and (max-width:1000px)
+{
+    #resume-white
+    {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:700px)
+{
+    #contact-section
+    {
+        flex-basis: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #resume
+    {
+        width: 90%;
+    }
+
+    .paragraph
+    {
+        padding:10px 5px;
+    }
+    
+}
+
+@media screen and (max-width:500px)
+{
+    #contact-section
+    {
+        display: none;
+    }
+}
+
+
+/*  Resume section start  */
+/*  Resume section start  */
